@@ -1,0 +1,27 @@
+{
+  "name": "ring-extract-ts",
+  "version": "1.0.0",
+  "description": "Extracts Ring Doorbell timestamp from video and renames file with it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jsy-node ringExtractTs.jsy ./examples ./renamed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/epsodfu/ring-extract-ts.git"
+  },
+  "keywords": [
+    "ring"
+  ],
+  "author": "Robert Sirois",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/epsodfu/ring-extract-ts#readme",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "ffmpeg": "0.0.4",
+    "ffprobe": "^1.1.0",
+    "moment": "^2.24.0",
+    "node-tesseract-ocr": "^1.0.0",
+    "upath": "^1.2.0"
+  }
+}

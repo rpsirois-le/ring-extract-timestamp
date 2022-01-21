@@ -1,0 +1,22 @@
+{
+    "log": true
+    , "mode": "copy"
+    , "ext": ".mp4"
+    , "probe": true
+    , "ffprobe_path": "/usr/local/bin/ffprobe"
+    , "tesseract": {
+        "lang": "eng"
+        , "oem": 1
+        , "psm": 7
+    }
+    , "timezoneTranslations": [
+        {
+            "abbr": "MDT"
+            , "offset": "-0600"
+        }
+        , {
+            "abbr": "MST"
+            , "offset": "-0700"
+        }
+    ]
+}
