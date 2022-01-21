@@ -88,7 +88,7 @@ async function processFile( file ) ::
 
     try ::
         const files = await fs_p.readdir @ inDir
-        const results = await Promise.allSettled @ files.map @\ file ::> return await processFile @ file
+        const results = await Promise.allSettled @ files.map @ file => return processFile @ file
 
         // log on csv sheet if configured
         if config.log ::
